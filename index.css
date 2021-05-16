@@ -1,0 +1,192 @@
+.container {
+    max-width: 100%;
+    margin: 10em auto;
+  }
+  
+  .container--fluid {
+    margin: 0;
+    max-width: 100%;
+  }
+  
+  .container__row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1980px) {
+    .container__col--md-1 {
+      flex-basis: 8.33333%;
+    }
+    .container__col--md-2 {
+      flex-basis: 16.66667%;
+    }
+    .container__col--md-3 {
+      flex-basis: 25%;
+    }
+    .container__col--md-4 {
+      flex-basis: 33.33333%;
+    }
+    .container__col--md-5 {
+      flex-basis: 41.66667%;
+    }
+    .container__col--md-6 {
+      flex-basis: 50%;
+    }
+    .container__col--md-7 {
+      flex-basis: 58.33333%;
+    }
+    .container__col--md-8 {
+      flex-basis: 66.66667%;
+    }
+    .container__col--md-9 {
+      flex-basis: 75%;
+    }
+    .container__col--md-10 {
+      flex-basis: 83.33333%;
+    }
+    .container__col--md-11 {
+      flex-basis: 91.66667%;
+    }
+    .container__col--md-12 {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container__col--sm-1 {
+      flex-basis: 8.33333%;
+    }
+    .container__col--sm-2 {
+      flex-basis: 16.66667%;
+    }
+    .container__col--sm-3 {
+      flex-basis: 25%;
+    }
+    .container__col--sm-4 {
+      flex-basis: 33.33333%;
+    }
+    .container__col--sm-5 {
+      flex-basis: 41.66667%;
+    }
+    .container__col--sm-6 {
+      flex-basis: 50%;
+    }
+    .container__col--sm-7 {
+      flex-basis: 58.33333%;
+    }
+    .container__col--sm-8 {
+      flex-basis: 66.66667%;
+    }
+    .container__col--sm-9 {
+      flex-basis: 75%;
+    }
+    .container__col--sm-10 {
+      flex-basis: 83.33333%;
+    }
+    .container__col--sm-11 {
+      flex-basis: 91.66667%;
+    }
+    .container__col--sm-12 {
+      flex-basis: 100%;
+    }
+  }
+  
+  .form {
+    padding: 30px;
+    border: 1px solid black;
+  }
+  
+  .text {
+    text-align: center;
+  }
+  
+  /*@mixin foucse () {
+    $type:focus{
+      border :1px solid $btn-primary-background
+    }
+  }*/
+  .large-title {
+    font-size: 24px;
+    font-weight: 900;
+  }
+  
+  .header {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .button--primary {
+    width: 130px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: #252581;
+    font-size: 20px;
+  }
+  
+  .button--secondary {
+    width: 130px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: darkblue;
+    font-size: 20px;
+  }
+  
+  .input-wraper {
+    text-align: center;
+  }
+  
+  .textarea {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px gray solid;
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .textarea {
+      width: 100%;
+    }
+  }
+  
+  .textarea:foucse {
+    outline: none;
+    border: 1px solid red;
+  }
+  
+  .input {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px gray solid;
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (max-width: 1980px) {
+    .input {
+      width: 500px;
+    }
+  }
+  
+  .input:foucse {
+    outline: none;
+    border: 1px solid red;
+  }
+  
+  .label {
+    margin-right: 20px;
+    color: #13133a;
+    font-size: 20px;
+  }
+  
